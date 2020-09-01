@@ -1,0 +1,159 @@
+body{
+  background-image: url("WT.jpg");
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.top{
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+.london1{
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.paris1{
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.tokyo{
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+#white-section {
+  background-color: #fff;
+  margin-top: "100px";
+  padding: 300px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+#testimonials {
+  background-color: #ef8172;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 12%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  padding: 20px;
+  margin-left: 100px;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 200px;
+  height: 100px;
+  margin: 20px 20px 50px;
+}
+
+
+
+
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }}
+
+  .title-image {
+    width: 60%;
+
+    position: absolute;
+    right: 30%;
+  }
+  #icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover {
+    color: #ff4c68;
+  }
+  /* Sections */
+
+  .colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+    height: 600px;
+  }
+
+  #pricing {
+    padding: 100px;
+  }
+
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+  /* CTA Section */
